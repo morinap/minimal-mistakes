@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "morinap.github.io"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Andrew Morin"
+description              : "Just a site for @morinap to chat about stuff."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -39,12 +39,12 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : morinap
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "https://pbs.twimg.com/profile_images/679279860385099776/KB9yWJcz.jpg" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -61,10 +61,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Andrew Morin"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Software developer and sports nut - Indianapolis, via Cincinnati. I love baseball, motorsports, computers & the Oxford comma. Firmly believe in Hanlon's razor."
+  location         : "Indianapolis, IN"
   email            :
   uri              :
   bitbucket        :
@@ -73,18 +73,18 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : morinap
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : andrewpmorin
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : morinap
   vine             :
   weibo            :
   xing             :
@@ -143,6 +143,19 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 
 # Outputting
